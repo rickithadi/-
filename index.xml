@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.com/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>My Site</title>
+    <link>https://rickithadi.github.io/rickithadi/</link>
+    <description>Recent content on My Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Nov 2017 18:19:19 +0800</lastBuildDate>
-    <atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Nov 2017 20:42:03 +0800</lastBuildDate>
+    <atom:link href="https://rickithadi.github.io/rickithadi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>hello</title>
-      <link>http://example.com/post/hello/</link>
-      <pubDate>Sat, 18 Nov 2017 18:19:19 +0800</pubDate>
+      <title>bang</title>
+      <link>https://rickithadi.github.io/rickithadi/post/bang/</link>
+      <pubDate>Sat, 18 Nov 2017 20:42:03 +0800</pubDate>
       
-      <guid>http://example.com/post/hello/</guid>
-      <description>&lt;p&gt;something witty&lt;/p&gt;
+      <guid>https://rickithadi.github.io/rickithadi/post/bang/</guid>
+      <description>&lt;p&gt;problems:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hello1</title>
+      <link>https://rickithadi.github.io/rickithadi/post/hello1/</link>
+      <pubDate>Sat, 18 Nov 2017 18:59:06 +0800</pubDate>
+      
+      <guid>https://rickithadi.github.io/rickithadi/post/hello1/</guid>
+      <description>&lt;p&gt;hi this is my second first post&lt;/p&gt;
 </description>
     </item>
     
