@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Hugo Cactus Theme</title>
+    <link>https://example.org/about/</link>
+    <description>Recent content in Abouts on Hugo Cactus Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Nov 2017 22:07:28 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.org/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>first</title>
+      <link>https://example.org/about/first/</link>
+      <pubDate>Sat, 18 Nov 2017 22:07:28 +0800</pubDate>
+      
+      <guid>https://example.org/about/first/</guid>
+      <description>setting it op</description>
+    </item>
+    
+  </channel>
+</rss>

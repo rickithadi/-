@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="John Doe">
+<meta name="description" content="Describe your website">
+<meta name="generator" content="Hugo 0.31" />
+<title>Utils</title>
+<link rel="shortcut icon" href="https://example.org/images/favicon.ico">
+<link rel="stylesheet" href="https://example.org/css/style.css">
+<link rel="stylesheet" href="https://example.org/css/highlight.css">
+
+
+
+<link rel="stylesheet" href="https://example.org/css/monosocialiconsfont.css">
+
+
+
+<link href="https://example.org/index.xml" rel="alternate" type="application/rss+xml" title="Hugo Cactus Theme" />
+
+
+<meta property="og:title" content="Utils" />
+<meta property="og:description" content="A dozen of useful utilities that come with Kube" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.org/docs/utils/" />
+
+
+
+<meta property="article:published_time" content="2017-04-10T16:43:30&#43;01:00"/>
+
+<meta property="article:modified_time" content="2017-04-10T16:43:30&#43;01:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Utils">
+<meta itemprop="description" content="A dozen of useful utilities that come with Kube">
+
+
+<meta itemprop="datePublished" content="2017-04-10T16:43:30&#43;01:00" />
+<meta itemprop="dateModified" content="2017-04-10T16:43:30&#43;01:00" />
+<meta itemprop="wordCount" content="316">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Utils"/>
+<meta name="twitter:description" content="A dozen of useful utilities that come with Kube"/>
+<meta name="twitter:site" content="@https://www.twitter.com/"/>
+
+
+    </head>
+<body>
+    <nav class="main-nav">
+	
+		<a href='https://example.org/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+
+	
+		<a class="cta" href="https://example.org/index.xml">Subscribe</a>
+	
+</nav>
+
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <h1>Utils</h1>
+        <h2 class="subtitle">A dozen of useful utilities that come with Kube</h2>
+        <h2 class="headline">
+        April 10, 2017
+        <br>
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        <p><h3 class="section-head" id="h-group"><a href="#h-group">Group</a></h3>
+<p>Combines float elements to group with a clearfix.</p>
+<div class="example">
+  <div class="group">
+    <div class="float-left">
+      This text is visibly floating left
+    </div>
+    <div class="float-right">
+      This text looks like a case of right float
+    </div>
+  </div>
+  <pre class="code skip">&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&ldquo;group&rdquo;</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&ldquo;float-left&rdquo;</span>&gt;&hellip;&lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&ldquo;float-right&rdquo;</span>&gt;&hellip;&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</pre>
+</div>
+<h3 class="section-head" id="h-visibility"><a href="#h-visibility">Visibility</a></h3>
+<p>Below is an invisible <code>div</code> with class <var>invisible</var>. You can&rsquo;t see it, because it is invisible. You can&rsquo;t see invisible things.</p>
+<div class="example">
+  <div class="invisible">
+    invisible
+  </div>
+  <div class="visible">
+    But you can see this <code>div</code> because it has <var>visible</var> class.
+  </div>
+  <pre class="code skip">&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&ldquo;invisible&rdquo;</span>&gt;&hellip;&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&ldquo;visible&rdquo;</span>&gt;&hellip;&lt;/<span class="hljs-keyword">div</span>&gt;
+</pre>
+</div>
+<h3 class="section-head" id="h-display"><a href="#h-display">Display</a></h3>
+<p>This is a very useful little bit. Whenever you need to hide some text or an element on a small screen, just throw in <var>hide-sm</var> class. Or, if you need to specifically show something only on small screens, <var>show-sm</var> class is yours for the job. You can also just plain hide stuff with <var>hide</var> class. Can you see red words &ldquo;I&rsquo;m hidden&rdquo; below? Exactly.</p>
+<div class="example">
+  <div class="hide red">
+    I&rsquo;m hidden
+  </div>
+  <div class="hide-sm">
+    This text will not show up on a small screen.
+  </div>
+  <p>Resize your window and trust us on this <span class="hide-sm">↑</span>&nbsp;<span class="show-sm">↓</span></p>
+  <div class="show-sm">
+    This text will only show up on a small screen
+  </div>
+  <pre class="code skip">&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&ldquo;hide&rdquo;</span>&gt;I&rsquo;m hidden&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&ldquo;hide-sm&rdquo;</span>&gt;This <span class="hljs-built_in">text</span> will <span class="hljs-keyword">not</span> show up <span class="hljs-keyword">on</span> a small screen.&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&ldquo;show-sm&rdquo;</span>&gt;This will only show up <span class="hljs-keyword">on</span> a small screen&lt;/<span class="hljs-keyword">div</span>&gt;
+</pre>
+</div>
+<h3 class="section-head" id="h-print"><a href="#h-print">Print</a></h3>
+<p>One more neat feature of Kube. It helps you produce better ready-to-print pages by simply hiding irrelevant things.</p>
+<div class="example">
+  <div class="hide-print">
+    This will be hidden on print, because it is some sort of web-specific thing.
+  </div>
+  <div class="show-print">
+    This will be printed, because this text is somehow more relevant on paper than on screen.
+  </div>
+  <pre class="code skip">&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&ldquo;hide-print&rdquo;</span>&gt;&hellip;&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&ldquo;show-print&rdquo;</span>&gt;&hellip;&lt;/<span class="hljs-keyword">div</span>&gt;
+</pre>
+</div>
+<h3 class="section-head" id="h-video-container"><a href="#h-video-container">Video Container</a></h3>
+<p>Helps to serve responsive video to various devices.</p>
+<div class="example">
+  <div class="video-container">
+    <iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/nywsA8wCCfY" width="560"></iframe>
+  </div>
+  <pre class="code skip"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&ldquo;video-container&rdquo;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">iframe</span>&gt;</span>&hellip;<span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</pre>
+</div>
+<h3 class="section-head" id="h-close"><a href="#h-close">Close</a></h3>
+<p>Closing icon to close anything you want.</p>
+<div class="example">
+  <span class="close small"></span>
+  <pre class="code skip">&lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&ldquo;close small&rdquo;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span></pre>
+</div>
+<div class="example">
+  <span class="close"></span>
+  <pre class="code skip">&lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&ldquo;close&rdquo;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span></pre>
+</div>
+<div class="example">
+  <span class="close big"></span>
+  <pre class="code skip">&lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&ldquo;close big&rdquo;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span></pre>
+</div>
+<h3 class="section-head" id="h-caret"><a href="#h-caret">Caret</a></h3>
+<p>Kube has already built-in four-direction caret.</p>
+<div class="example">
+  <span class="caret down"></span> <span class="caret up"></span> <span class="caret left"></span> <span class="caret right"></span>
+  <pre class="code skip">&lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&ldquo;caret down&rdquo;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span>
+&lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&ldquo;caret up&rdquo;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span>
+&lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&ldquo;caret left&rdquo;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span>
+&lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&ldquo;caret right&rdquo;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span>
+</pre>
+</div>
+<p>Example of usage:</p>
+<div class="example">
+  <button class="button">Button <span class="caret down white"></span></button> &nbsp;&nbsp;&nbsp; <a href="#">Link <span class="caret up"></span></a> &nbsp;&nbsp;&nbsp; Text <span class="caret down"></span> &nbsp;&nbsp;&nbsp; <button class="button secondary outline">Button <span class="caret down"></span></button>
+</div>
+<h3 class="section-head" id="h-icons"><a href="#h-icons">Icons</a></h3>
+<p>Some useful icons are already built-in to Kube.</p>
+<div class="example">
+  <i class="kube-search"></i>
+  <pre class="code skip">&lt;i <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&ldquo;kube-search&rdquo;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span></pre>
+</div>
+<div class="example">
+  <i class="kube-menu"></i>
+  <pre class="code skip">&lt;i <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&ldquo;kube-menu&rdquo;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span></pre>
+</div>
+<div class="example">
+  <i class="kube-calendar"></i>
+  <pre class="code skip">&lt;i <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">&ldquo;kube-calendar&rdquo;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span></pre>
+</div></p>
+
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    <a href="https://twitter.com/Your%20Twitter%20account">
+    <img class="avatar" src="https://example.org/images/avatar.png">
+    <div>
+        <span class="dark">John Doe</span>
+        <span>I&#39;m an blogger.</span>
+    </div>
+    </a>
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fexample.org%2fdocs%2futils%2f - Utils by @Your%20Twitter%20account"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spf13" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/blog/welcome/">Welcome to Kube<aside class="dates">Mar 2 2017</aside></a>
+        </li>
+    
+        <li>
+            <a href="/docs/quick-start/">Quick Start<aside class="dates">Jan 1 0001</aside></a>
+        </li>
+    
+        <li>
+            <a href="/docs/custom-plugins/">Custom Plugins<aside class="dates">Jan 1 0001</aside></a>
+        </li>
+    
+        <li>
+            <a href="/docs/typography/">Typography<aside class="dates">Jan 1 0001</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/typography/">Typography with kube<aside class="dates">Jan 1 0001</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/prototyping/">Prototyping with markdown<aside class="dates">Apr 2 2017</aside></a>
+        </li>
+    
+        <li>
+            <a href="/docs/grid/">Grid<aside class="dates">Jan 1 0001</aside></a>
+        </li>
+    
+        <li>
+            <a href="/docs/tables/">Tables<aside class="dates">Apr 10 2017</aside></a>
+        </li>
+    
+        <li>
+            <a href="/docs/forms/">Forms<aside class="dates">Apr 10 2017</aside></a>
+        </li>
+    
+        <li>
+            <a href="/docs/buttons/">Buttons<aside class="dates">Apr 10 2017</aside></a>
+        </li>
+    
+</ul>
+
+
+
+        <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://www.dribbble.com/">
+        circledribble
+    </a>
+    
+    <a class="symbol" href="https://www.facebook.com/">
+        circlefacebook
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/">
+        circlegithub
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/">
+        circletwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2017 John Doe
+    
+    </p>
+</footer>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://example.org/js/main.js"></script>
+<script src="https://example.org/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+</body>
+</html>
